@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="an">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> NGUYỄN ĐẮC MINH PHÁP </title>
+    <link rel="stylesheet" href="CV-NguyenDacMinhPhap.css" type="text/css" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+  <header class="header">
+    <p>NGUYỄN ĐẮC MINH PHÁP</p>
+    <p>FRONT-END DEVELOPER</p>
+  </header> 
+  <br>
+  <br>
+  <br>
+
+  <article>
+  <div class="item">
+    <div>
+     <h2>Nguyễn Đắc Minh Pháp</h2>
+     <img />
+    </div>
+  </div>
+  <div class="item">
+    <div>
+        <h3 class="title">Thông tin cá nhân</h3>
+        <div class="thongtin">
+          <span class="material-symbols-outlined">
+            man
+            </span>
+          <p>Nam</p>
+        </div>
+        <div class="thongtin">
+          <span class="material-symbols-outlined">
+            calendar_month
+            </span>
+          <p>08/05/1998</p>
+        </div>
+        <div  class="thongtin">
+          <span class="material-symbols-outlined">
+            call
+            </span>
+          <p>07080030073</p>
+        </div>
+        <div class="thongtin">
+          <span class="material-symbols-outlined">
+            mail
+            </span>
+          <p>minhphappro123@gmail.com</p>
+        </div>
+        <div class="thongtin">
+          <span class="material-symbols-outlined">
+            home
+            </span>
+          <p>Thanh Khê, Đà Nẵng</p>
+        </div>
+    </div>
+    <div>
+     <h3  class="title">Mục tiêu nghề nghiệp</h3>  
+     <p>Mong muốn tìm được chỗ làm ổn định</p> 
+     <p>Nâng cao kỹ năng và học thêm kiến thức mới</p>
+     <p>Front end developer</p>
+    </div>   
+    <div>
+     <h3  class="title">Kỹ năng</h3>   
+     <p> Thành thạo tiếng Anh</p>
+     <p>Giao tiếp</p>
+     <p>HTML, CSS, JAVASCRIPT, VUE</p>
+    </div>
+  </div>
+  <div class="item">
+    <div>
+     <h3  class="title" style="padding-right:90px  ;">Kinh nghiệm làm việc</h3>
+     <p>Freelancer các web page nhỏ</p>
+    </div>
+    <div >
+     <h3  class="title">Dự án</h3>
+     <link href="" type="text">
+     <link href="" type="text">
+    </div>
+  </div>
+ </article>   
+</body>
