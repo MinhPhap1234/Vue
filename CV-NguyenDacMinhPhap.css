@@ -1,0 +1,86 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    font-size: large;
+
+}
+
+
+.header{
+display: grid;
+place-items: center;
+background-color: rgb(0,60,100);
+position: absolute;
+top: 0;
+width: 100%;
+font-size: 20px;
+opacity: 100;
+}
+
+.header div{
+    padding-top: 50px;
+}
+
+article{
+    max-width: 2000px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+
+
+article > :last-child{ margin-left: 3rem; }
+
+
+
+.thongtin{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.thongtin p {
+    margin-left: 6rem;
+}
+
+
+
+.title{
+    background-color: rgba(255, 0, 0, 0.744);
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 10;
+    font-size: 20px;
+    transition: transform .2s; }
+
+.title:hover{
+    transform: scale(1.5);
+}
+
+.title .right {
+background-color: aliceblue;}
+
+.ul{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.ul a {
+    color: black;
+  padding: 12px ;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+
+
+#myDIV:hover .ul{
+display: block;
+}
